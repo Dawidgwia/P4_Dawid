@@ -361,6 +361,22 @@ a:hover {
     position: relative;
     z-index: 2;
 }
+.title-2 {
+    font-size: 38px;
+    color: #333333!important; 
+    line-height: 40px!important;
+    font-weight: 400!important;
+}
+.title-3 {
+    font-size: 15px;
+}
+.title-4 {
+    font-weight: 400!important;
+    color: #333333!important;
+    font-size: 36px!important;
+    letter-spacing: 0.5px!important;
+    line-height: 40px!important;
+}
 
 @media (min-width: 768px) {
     .site-navigation {
@@ -844,6 +860,11 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
+    .img-text {
+        width: 99%;
+    }
+   
+
 }
 
 @media (max-width: 992px) and (min-width: 768px) {
@@ -852,6 +873,9 @@ h4 {
     }
     .nav-center.navbar .nav {
         max-width: 100%
+    }
+    .img-text {
+        width: 98%;
     }
 }
 
