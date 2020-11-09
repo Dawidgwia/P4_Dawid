@@ -802,12 +802,12 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #7e4d36;
+    background: #F3976C;
     color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #7e4d36!important;
+    background: #c27956!important;
     color: #FFFFFF!important;
 }
 
@@ -820,7 +820,7 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C!important;
+    color: #c55e2e!important;
 }
 
 .ltc-atomic-tangerine:hover {
@@ -1056,6 +1056,13 @@ h4 {
     .footer-center {
         margin-left: 250px
     }
+    .nav li a:focus-within b,
+    a:focus-within,
+    li a:focus-within{
+    text-decoration:underline;
+    color:red;
+    background: #414d27;
+}
 }
 @media (max-width: 550px) {
     .footer-center {
