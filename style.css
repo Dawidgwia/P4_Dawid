@@ -43,6 +43,9 @@ a:hover {
     padding-left: 0;
     padding-right: 0;
 }
+.f-bloc {
+    margin-top: 115px;
+}
 
 .bloc-lg {
     padding: 100px 50px;
